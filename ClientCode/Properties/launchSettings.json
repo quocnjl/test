@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "ClientCode": {
+      "commandName": "Project",
+      "commandLineArgs": "2 \"job name with space\"",
+      "environmentVariables": {
+        "JL_SDK_TENANTID": "tenant1",
+        "JL_SDK_API": "https://skdapi.joblogic-fake.com"
+      }
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
